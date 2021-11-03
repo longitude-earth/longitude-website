@@ -1,7 +1,7 @@
 import { Box, HStack, Button } from '@chakra-ui/react'
 import * as React from 'react'
 
-export const Footer = () => {
+export default function Footer (){
   //svg is made with this app: https://app.haikei.app/
 
   return (

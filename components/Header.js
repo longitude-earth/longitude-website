@@ -1,7 +1,7 @@
 import { Box, Image, Link } from '@chakra-ui/react'
 import * as React from 'react'
 
-export const Header = () => {
+export default function Header () {
   return (
     <Box
       px="5vw"

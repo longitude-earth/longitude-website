@@ -5,7 +5,6 @@ import * as React from 'react'
 export default function JobSummary ({job}) {
   const {title, location, summary, id} = job
 
-
   return (
     <Box color="white" py="5" mt="5">
         <Link href={`/jobs/${id}`}  _hover={{color: 'gray.300'}}>

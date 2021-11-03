@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
 import { Box, Heading, Text, Button } from '@chakra-ui/react'
 import * as React from 'react'
-import jobsData from '../../components/data'
+import jobs from '../../../public/data'
 
 function Job(){
   const router = useRouter()
@@ -10,10 +10,9 @@ function Job(){
   const [job, setJob] = React.useState({title: 'x', description: 'x'})
   
   React.useEffect(() => {
-    const j = jobsData.find(job => job.id == id)
+    const j = jobs.find(job => job.id == id)
 
     if(j){
-      console.log('JJJJ: ',j)
       setJob(j)
     }
   }, [id])

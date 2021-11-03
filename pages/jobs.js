@@ -1,9 +1,8 @@
-import { Box, Heading, Link, Text } from '@chakra-ui/react'
+import { Box, Heading } from '@chakra-ui/react'
 import * as React from 'react'
-import { Footer } from './components/Footer'
-import { Header } from './components/Header'
-import jobsData from './components/data'
-import JobSummary  from './components/jobSummary'
+import Header from '../components/Header'
+import jobs from '../public/data'
+import JobSummary  from '../components/jobSummary'
 
 export default function Jobs () {
   return (
@@ -19,7 +18,7 @@ export default function Jobs () {
           Jobs
         </Heading>
       {
-        jobsData.map((job) => {
+        jobs.map((job) => {
           return (
             <JobSummary job={job} />
           )
