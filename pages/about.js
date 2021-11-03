@@ -11,8 +11,9 @@ export default function Jobs () {
       backgroundColor='black'
     >
       <Box color='white'
-              p="5vw">
-        <Heading size="xl">
+              px="5vw"
+              py="5vh">
+        <Heading size="2xl">
             About
         </Heading>
         <Text fontSize="lg" mt="5">

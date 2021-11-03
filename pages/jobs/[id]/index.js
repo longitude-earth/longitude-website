@@ -17,7 +17,6 @@ function Job(){
     }
   }, [id])
 
-
   return (
     <Box
       height='100%'
@@ -26,7 +25,8 @@ function Job(){
       backgroundColor='black'
     >
       <Box color='white'
-              p="5vw">
+              px="5vw"
+              py="5vh">
         <Heading size="2xl" mb="5">
             {job.title}
         </Heading>

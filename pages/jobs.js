@@ -11,10 +11,8 @@ export default function Jobs () {
       minHeight='100vh'
       width='100vw'
       backgroundColor='black'
-      py="5"
     >
-      <Box
-        px="5vw">
+      <Box px="5vw" py="5vh">
         <Heading color="white"  size="2xl">
           Jobs
         </Heading>
