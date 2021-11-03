@@ -7,7 +7,7 @@ export default function Footer (){
   return (
     <Box 
       position="absolute"
-      bottom="5vh" >
+      bottom="10vh" >
     <Box  
       width="100vw"
       alignItems='center'

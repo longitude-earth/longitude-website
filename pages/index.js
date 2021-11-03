@@ -5,7 +5,7 @@ import Footer  from "../components/Footer";
 
 export default function Home() {
   return (
-    <Box height="100vh" width="100vw" backgroundColor="black">
+    <Box minH="-webkit-fill-available" minHeight="100vh" width="100vw" backgroundColor="black">
       <Header />
       <Box
         mt="25vh"
