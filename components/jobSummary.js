@@ -6,11 +6,11 @@ export default function JobSummary ({job}) {
   const {title, location, summary, id} = job
 
   return (
-    <Box color="white" py="5" mt="5">
+    <Box color="white" py="4" mt="5">
         <Link href={`/jobs/${id}`}  _hover={{color: 'gray.300'}}>
           <Heading size="lg">{title}</Heading>
         </Link>
-        <Text>{location}</Text>
+        <i>{location}</i>
         <Box>{summary}</Box>
     </Box>
   )

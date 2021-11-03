@@ -7,14 +7,15 @@ import JobSummary  from '../components/jobSummary'
 export default function Jobs () {
   return (
     <Box
-      height='100vh'
+      height='100%'
+      minHeight='100vh'
       width='100vw'
       backgroundColor='black'
+      py="5"
     >
-      <Header />
       <Box
         px="5vw">
-        <Heading color="white" mt='5vh' size="2xl" mb="50">
+        <Heading color="white"  size="2xl">
           Jobs
         </Heading>
       {

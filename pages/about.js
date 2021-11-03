@@ -5,14 +5,13 @@ import Header from '../components/Header'
 export default function Jobs () {
   return (
     <Box
-      height='100vh'
+      height='100%'
+      minHeight='100vh'
       width='100vw'
       backgroundColor='black'
     >
-      <Header />
       <Box color='white'
-              mt='5vh'
-              px="5vw">
+              p="5vw">
         <Heading size="xl">
             About
         </Heading>
@@ -31,23 +30,6 @@ export default function Jobs () {
           <br/>
           - Basic data science
           <br/>
-
-          <Text>Technologies we use</Text>
-          <ul>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Express</li>
-            <li>MongoDB</li>
-            <li>MySQL</li>
-            <li>PostgreSQL</li>
-            <li>Redis</li>
-            <li>AWS</li>
-            <li>Docker</li>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Heroku</li>
-            <li>Gatsby</li>
-          </ul>
         </Text>
 
         <Box mt="15">
