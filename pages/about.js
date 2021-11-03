@@ -1,6 +1,5 @@
-import { Box, Heading, Text, Link } from '@chakra-ui/react'
+import { Box, Heading, Text, Button } from '@chakra-ui/react'
 import * as React from 'react'
-import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 
 export default function Jobs () {
@@ -14,10 +13,10 @@ export default function Jobs () {
       <Box color='white'
               mt='5vh'
               px="5vw">
-        <Heading size="2xl">
+        <Heading size="xl">
             About
         </Heading>
-        <Text fontSize="2xl" mt="5">
+        <Text fontSize="lg" mt="5">
           We are a small team of developers who love to create and build things, specialised in complex applications. <br/>
           <br/>
           Services we offer:
@@ -33,18 +32,33 @@ export default function Jobs () {
           - Basic data science
           <br/>
 
+          <Text>Technologies we use</Text>
+          <ul>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+            <li>MySQL</li>
+            <li>PostgreSQL</li>
+            <li>Redis</li>
+            <li>AWS</li>
+            <li>Docker</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Heroku</li>
+            <li>Gatsby</li>
+          </ul>
+        </Text>
 
-          <br/><br/>
-          Address: <br/>
+        <Box mt="15">
+          <Text fontSize="xl">Address:</Text>
           Allerstrasse 37 <br/>
           12049 Berlin <br/>
           Germany <br/>
           VAT: DE345043936 <br/>
-          <href href="mailto:matthias@longitude.earth">mail us</href>
-
-        </Text>
+          <Button mt="10" backgroundColor="white" color="black" fontSize="20px" fontWeight="900" _hover={{ backgroundColor: "gray.300" }} onClick={()=> window.location.href = "mailto:matthias@longitude.earth"}>Contact</Button>
+        </Box>
       </Box>
-      <Footer/>
     </Box>
   )
 }

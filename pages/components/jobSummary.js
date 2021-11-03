@@ -5,7 +5,6 @@ import * as React from 'react'
 export default function JobSummary ({job}) {
   const {title, location, summary, id} = job
 
-  console.log(job, title)
 
   return (
     <Box color="white" py="5" mt="5">

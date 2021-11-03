@@ -16,7 +16,7 @@ export default function Home() {
         justifyContent="center"
       >
     <Box>
-          <Heading size="3xl">Digital product studio</Heading>
+          <Heading size="3xl">Digital product agency</Heading>
           <Heading mt="4" size="md">
             in Berlin.
           </Heading>
